@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    color: #666666;
+}
+
+header {
+    background-image: url(pacific/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 400%;
+    text-indent: 1em;
+    background-color: #000033;
+    color: #FFFFFF;
+}
+nav {
+    font-weight: bold;
+    background-color: #90C7E3;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #3399CC;
+}
+
+h3 {
+    color: #000033;
+}
+
+dt {
+    color: #000033;
+}
+
+ul {
+    list-style-image: url(pacific/marker.gif);
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.resort {
+    font-weight: bold;
+    color: #5C7FA3;
+}
+
+#contact {
+    font-size: 90%;
+}
