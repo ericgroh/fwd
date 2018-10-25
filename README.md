@@ -20,4 +20,4 @@ Assignments &amp; Labs for Intro to Web Development
 
 ## Midterm
 
-[Midterm](https://ericgorh.github.io/fwe/midterm/index.html)
+[Midterm](https://ericgorh.github.io/fwd/midterm/index.html)
