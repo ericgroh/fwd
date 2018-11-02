@@ -16,8 +16,9 @@ Assignments &amp; Labs for Intro to Web Development
 [Pacific Trails Part 3](https://ericgroh.github.io/fwd/ch5pacific/index.html)
 [Pacific Trails Part 4](https://ericgroh.github.io/fwd/ch6pacific/index.html)
 [Pacific Trails Part 5](https://ericgroh.github.io/fwd/asn7/index.html)
+[Pacific Trails Part 6](https://ericgroh.github.io/fwd/asn8/index.html)
 
 
 ## Midterm
 
-[Midterm](https://ericgorh.github.io/fwd/midterm/index.html)
+[Midterm](https://ericgroh.github.io/fwd/midterm/index.html)
