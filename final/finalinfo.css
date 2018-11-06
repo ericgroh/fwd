@@ -9,7 +9,7 @@ h1 {
     color: #191919;
     height: 86px;
     text-align: center;
-    border: 4px solid #000000;
+    border: 3px solid #000000;
     padding: 10px 10px;
 }
 
@@ -39,6 +39,11 @@ a {
     color: #FFF;
     padding: 2px 5px 2px 5px;
     text-decoration: none;
+}
+
+a:active, a:hover {
+    border-bottom: solid;
+    border-color: #20F4E7;
 }
 
 footer {
