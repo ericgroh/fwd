@@ -2,7 +2,7 @@ body {
     /* background-color: #999999; */
     background-image: linear-gradient(to right top, #051937, #004870, #007ea4, #00b8cd, #20f4e7);    color: #FFFFFF;
     margin: 0;
-    height: 100vh;
+    min-height: 1000px;
 }
 
 h1 {
@@ -25,6 +25,7 @@ h3 {
     color: #ffffff;
 }
 #all {
+    height: 100%;
     margin: auto;
     width: 80%;
 }
@@ -44,5 +45,5 @@ footer {
     width: 100%;
     background-color: #FFF;
     color: #000;
-    padding: 10px 100px 10px 100px;
+    padding: 20px 100px 20px 100px;
 }
