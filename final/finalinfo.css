@@ -25,6 +25,27 @@ h3 {
     color: #ffffff;
 }
 
+.sitemap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 0 0 25px 0;
+}
+
+.wireframes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 0 0 25px 0;
+}
+
+.image_group {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
 #all {
     margin: auto;
     width: 80%;
@@ -44,6 +65,10 @@ a {
 a:active, a:hover {
     border-bottom: solid;
     border-color: #20F4E7;
+}
+
+figcaption {
+    max-width: 1000px;
 }
 
 footer {
