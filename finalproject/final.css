@@ -1,0 +1,82 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    background-image: linear-gradient(to right top, #051937, #004870, #007ea4, #00b8cd, #20f4e7);    color: #FFFFFF;
+    height: 100%;
+}
+
+header {
+    padding: 20px 10px 20px 10px
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    font-size: 1.25em;
+    padding: 2px 10px 2px 10px;
+}
+
+nav a:active, nav a:hover {
+    border-bottom: solid;
+    border-color: #20F4E7;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px 50px 20px 50px;
+    position:absolute;
+    bottom:0;
+    left: 0;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.active {
+    border-bottom: solid;
+    border-color: #20F4E7;
+}
+
+.description {
+    padding: 10px 100px 10px 100px;
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 100px 10px 10px 10px;
+    text-align: center;
+    font-size: 3em;
+}
+
+div.description a {
+    border: 1px solid #20F4E7;
+    margin-top: 50px;
+    padding: 5px 10px;
+}
+
+.card {
+    padding: 10px 00px 10px 100px;
+    text-align: center;
+    background: #f5f5f5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
