@@ -15,11 +15,7 @@
         $file = "data.txt";
         $fp = fopen($file, "a");
 
-        $message = "\n First Name: " . $first_name . "\n
-                       Last Name: " . $last_name . "\n
-                       Email: " . $email . "\n
-                       Comment: " . $comment . "\n
-                       -----------------------------------------";
+        $message = "\n First Name: " . $first_name . "\n Last Name: " . $last_name . "\n Email: " . $email . "\n Comment: " . $comment . "\n -----------------------------------------";
         fwrite($fp, $message);
         fclose($fp);
         echo "Saved to " . $file;
