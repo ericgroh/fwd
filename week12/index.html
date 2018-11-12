@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Week 12: Forms</title>
+
+        <style>
+            fieldset {
+                width: 400px; border: 3px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="frmTest" name="fromTest" action="process.php" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                First Name: <input id="fname" type="text" name="fname" value=""> <br> <br>
+                Last Name: <input id="lname" type="text" name="lname" value=""> <br> <br>
+                Email: <input id="email" type="email" name="email" value=""> <br> <br>
+                Comments: <br>
+                <textarea id="comment" name="comment" rows="7" cols="40">Please enter your comments here</textarea>
+                <br> <br>
+                <input id="submit" type="submit" name="submit" value="Submit">
+                <input id="reset" type="reset" name="reset" value="Reset">
+            </fieldset>
+        </form>
+    </body>
+</html>
