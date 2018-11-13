@@ -32,11 +32,24 @@ nav a {
     text-decoration: none;
 }
 
-footer {
+footer .footer-left {
     padding: 20px 50px 20px 50px;
-    position:absolute;
+    position:fixed;
     bottom:0;
     left: 0;
+}
+
+footer .footer-right {
+    padding: 20px 50px 20px 50px;
+    position:fixed;
+    bottom:0;
+    right: 0;
+}
+
+footer img {
+    width: 24px;
+    height: auto;
+    padding: 0 5px;
 }
 
 p {
@@ -82,7 +95,7 @@ tr:nth-of-type(odd) {
     text-align: left;
 } */
 
-form input {
+#fname, #lname, #email, #phone_number {
     font-size: 1em;
     height: 30px;
     min-width: 300px;
@@ -99,6 +112,20 @@ form textarea {
     margin: 5px;
     min-width: 300px;
     padding-left: 10px;
+}
+
+blockquote {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: italic;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    border-radius: 5px;
 }
 
 .wrapper {
@@ -118,7 +145,7 @@ form textarea {
 }
 
 .jumbotron {
-    padding: 50px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
     text-align: center;
     font-size: 3em;
 }
@@ -156,7 +183,7 @@ form textarea {
     background: #f5f5f5;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 60%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     color: #000;
@@ -168,11 +195,16 @@ form textarea {
     width: 100%;
 }
 
-.card.contact {
-    width: 60%;
-}
-
 .card p {
     /* padding: 100px 10px 100px 10px; */
     text-align: left !important;
+}
+
+.signature {
+    text-align: right;
+    padding: 0 50px;
+}
+
+.video {
+    margin-bottom: 10px;
 }
