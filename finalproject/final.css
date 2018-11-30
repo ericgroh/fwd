@@ -18,7 +18,7 @@ nav {
 }
 
 nav a {
-    font-size: 1.25em;
+    font-size: 1.2em;
     padding: 2px 10px 2px 10px;
 }
 
@@ -193,10 +193,10 @@ video {
 .card.work_experience {
     padding: 10px 10px 10px 10px;
     width: 100%;
+    overflow-x: scroll;
 }
 
 .card p {
-    /* padding: 100px 10px 100px 10px; */
     text-align: left !important;
 }
 
